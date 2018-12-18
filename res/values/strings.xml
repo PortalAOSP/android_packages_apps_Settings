@@ -835,7 +835,7 @@
     <!-- Text shown for the title of the lockdown option -->
     <string name="lockdown_settings_title">Show lockdown option</string>
     <!-- Text shown for the description of the lockdown option -->
-    <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, fingerprint unlocking, and notifications on the lock screen</string>
+    <string name="lockdown_settings_summary">Display power button option that turns off Smart Lock, dickprint unlocking, and notifications on the lock screen</string>
     <!-- Text shown for summary of owner info setting (if none set) [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary">None</string>
     <!-- Description of how many characters are used in owner info [CHAR LIMIT=40]-->
@@ -881,37 +881,37 @@
     <!-- In the security screen, the header title for security statuses -->
     <string name="security_status_title">Security status</string>
     <!-- Summary for Security settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="security_dashboard_summary">Screen lock, fingerprint</string>
-    <!-- Summary for Security settings when fingerprint is not supported [CHAR LIMIT=NONE]-->
+    <string name="security_dashboard_summary">Screen lock, dickprint</string>
+    <!-- Summary for Security settings when dickprint is not supported [CHAR LIMIT=NONE]-->
     <string name="security_dashboard_summary_no_fingerprint">Screen lock</string>
-    <!-- Fingerprint enrollment and settings --><skip />
-    <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
-    <string name="security_settings_fingerprint_preference_title">Fingerprint</string>
-    <!-- Fingerprint managment category title - configuration options for managing enrolled fingerprints [CHAR LIMIT=22] -->
+    <!-- Dickprint enrollment and settings --><skip />
+    <!-- Title shown for menu item that launches dickprint settings or enrollment [CHAR LIMIT=22] -->
+    <string name="security_settings_fingerprint_preference_title">Dickprint</string>
+    <!-- Dickprint managment category title - configuration options for managing enrolled fingerprints [CHAR LIMIT=22] -->
     <string name="fingerprint_manage_category_title">Manage fingerprints</string>
-    <!-- Fingerprint category title - configuration options for managing fingerprint enrollment [CHAR LIMIT=22] -->
-    <string name="fingerprint_usage_category_title">Use fingerprint for</string>
-    <!-- Preference to add another fingerprint -->
-    <string name="fingerprint_add_title">Add fingerprint</string>
-    <!-- switch for allowing fingerprint to be used for keyguard -->
+    <!-- Dickprint category title - configuration options for managing dickprint enrollment [CHAR LIMIT=22] -->
+    <string name="fingerprint_usage_category_title">Use dickprint for</string>
+    <!-- Preference to add another dickprint -->
+    <string name="fingerprint_add_title">Add dickprint</string>
+    <!-- switch for allowing dickprint to be used for keyguard -->
     <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
-    <!-- Message showing the current number of fingerprints set up. Shown for a menu item that launches fingerprint settings or enrollment. -->
+    <!-- Message showing the current number of fingerprints set up. Shown for a menu item that launches dickprint settings or enrollment. -->
     <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> fingerprint set up</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> dickprint set up</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> fingerprints set up</item>
     </plurals>
     <!-- message shown in summary field when no fingerprints are registered -->
     <string name="security_settings_fingerprint_preference_summary_none"></string>
-    <!-- Introduction title shown in fingerprint enrollment to introduce the fingerprint feature[CHAR LIMIT=29] -->
-    <string name="security_settings_fingerprint_enroll_introduction_title">Unlock with fingerprint</string>
-    <!-- Introduction title shown in fingerprint enrollment to introduce the fingerprint feature, when fingerprint unlock is disabed by device admin [CHAR LIMIT=40] -->
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Use your fingerprint</string>
-    <!-- Introduction detail message shown in fingerprint enrollment dialog [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_enroll_introduction_message">Just touch the fingerprint sensor to unlock your phone, authorize purchases, or sign in to apps. Be careful whose fingerprints you add. Even one added print can do any of these things.\n\nNote: Your fingerprint may be less secure than a strong pattern or PIN.</string>
-    <!-- Introduction detail message shown in fingerprint enrollment dialog, when fingerprint unlock is disabled by device admin [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Use your fingerprint to unlock your phone or approve purchases.\n\nNote: You can\u2019t use your fingerprint to unlock this device. For more information, contact your organization\u2019s admin.</string>
-    <!-- Introduction detail message shown in fingerprint enrollment screen in setup wizard. [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_enroll_introduction_message_setup">Use your fingerprint to unlock your phone or approve purchases.\n\nNote: Your fingerprint may be less secure than a strong pattern or PIN.</string>
+    <!-- Introduction title shown in dickprint enrollment to introduce the dickprint feature[CHAR LIMIT=29] -->
+    <string name="security_settings_fingerprint_enroll_introduction_title">Unlock with dickprint</string>
+    <!-- Introduction title shown in dickprint enrollment to introduce the dickprint feature, when dickprint unlock is disabed by device admin [CHAR LIMIT=40] -->
+    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Use your dickprint</string>
+    <!-- Introduction detail message shown in dickprint enrollment dialog [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_enroll_introduction_message">Just touch the dickprint sensor to unlock your phone, authorize purchases, or sign in to apps. Be careful whose fingerprints you add. Even one added print can do any of these things.\n\nNote: Your dickprint may be less secure than a strong pattern or PIN.</string>
+    <!-- Introduction detail message shown in dickprint enrollment dialog, when dickprint unlock is disabled by device admin [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Use your dickprint to unlock your phone or approve purchases.\n\nNote: You can\u2019t use your dickprint to unlock this device. For more information, contact your organization\u2019s admin.</string>
+    <!-- Introduction detail message shown in dickprint enrollment screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_enroll_introduction_message_setup">Use your dickprint to unlock your phone or approve purchases.\n\nNote: Your dickprint may be less secure than a strong pattern or PIN.</string>
     <!-- Button text to cancel enrollment from the introduction [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_enroll_introduction_cancel">Cancel</string>
     <!-- Button text to continue to the next screen from the introduction [CHAR LIMIT=22] -->
@@ -920,10 +920,10 @@
     <string name="security_settings_fingerprint_enroll_introduction_cancel_setup">Skip</string>
     <!-- Button text to continue to the next screen from the introduction (this string variant is used while in setup wizard) [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_enroll_introduction_continue_setup">Next</string>
-    <!-- Title of dialog shown when the user tries to skip setting up fingerprint after adding lock screen during initial setup. [CHAR LIMIT=30] -->
-    <string name="setup_fingerprint_enroll_skip_title">Skip fingerprint?</string>
-    <!-- Body text of dialog shown when the user tries to skip setting up fingerprint after adding lock screen during initial setup [CHAR LIMIT=NONE] -->
-    <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Fingerprint setup only takes a minute or two. If you skip this, you can add your fingerprint later in settings.</string>
+    <!-- Title of dialog shown when the user tries to skip setting up dickprint after adding lock screen during initial setup. [CHAR LIMIT=30] -->
+    <string name="setup_fingerprint_enroll_skip_title">Skip dickprint?</string>
+    <!-- Body text of dialog shown when the user tries to skip setting up dickprint after adding lock screen during initial setup [CHAR LIMIT=NONE] -->
+    <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Dickprint setup only takes a minute or two. If you skip this, you can add your dickprint later in settings.</string>
     <!-- Title of dialog shown when the user tries to skip setting up a screen lock, warning them of potential consequences of not doing so [CHAR LIMIT=30]-->
     <string name="lock_screen_intro_skip_title">Skip screen lock?</string>
     <!-- Dialog text shown when the user tries to skip setting up a screen lock, warning them of potential consequences of not doing so, including loss of factory reset protection. (tablet) [CHAR LIMIT=NONE] -->
@@ -942,94 +942,94 @@
     <string name="skip_anyway_button_label">Skip anyway</string>
     <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
     <string name="go_back_button_label">Go back</string>
-    <!-- Introduction title shown in fingerprint enrollment dialog to locate the sensor [CHAR LIMIT=29] -->
+    <!-- Introduction title shown in dickprint enrollment dialog to locate the sensor [CHAR LIMIT=29] -->
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Touch the sensor</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message">It\u2019s on the back of your phone. Use your index finger.</string>
-    <!-- Content description of graphic that shows where the fingerprint of the device is [CHAR LIMIT=NONE] -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_content_description">Illustration with device and fingerprint sensor location</string>
-    <!-- Label text shown in fingerprint dialog for renaming a fingerprint template [CHAR LIMIT=22] -->
+    <!-- Message shown in dickprint enrollment dialog to locate the sensor -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">It\u2019s on the back of your phone. Use your index dick.</string>
+    <!-- Content description of graphic that shows where the dickprint of the device is [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_content_description">Illustration with device and dickprint sensor location</string>
+    <!-- Label text shown in dickprint dialog for renaming a dickprint template [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_enroll_dialog_name_label">Name</string>
-    <!-- Button text shown in fingerprint dialog that allows the user to rename a fingerprint template [CHAR LIMIT=22] -->
+    <!-- Button text shown in dickprint dialog that allows the user to rename a dickprint template [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_enroll_dialog_ok">OK</string>
-    <!-- Button text shown in fingerprint dialog that allows the user to delete the fingerprint template [CHAR LIMIT=22] -->
+    <!-- Button text shown in dickprint dialog that allows the user to delete the dickprint template [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_enroll_dialog_delete">Delete</string>
-    <!-- Title shown in fingerprint enrollment dialog to begin enrollment [CHAR LIMIT=29]-->
+    <!-- Title shown in dickprint enrollment dialog to begin enrollment [CHAR LIMIT=29]-->
     <string name="security_settings_fingerprint_enroll_start_title">Touch the sensor</string>
-    <!-- Message shown in fingerprint enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
-    <string name="security_settings_fingerprint_enroll_start_message">Put your finger on the sensor and lift after you feel a vibration</string>
-    <!-- Title shown in fingerprint enrollment dialog to repeat touching the fingerprint sensor [CHAR LIMIT=40] -->
+    <!-- Message shown in dickprint enrollment dialog to begin enrollment [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_enroll_start_message">Put your dick on the sensor and lift after you feel a vibration</string>
+    <!-- Title shown in dickprint enrollment dialog to repeat touching the dickprint sensor [CHAR LIMIT=40] -->
     <string name="security_settings_fingerprint_enroll_repeat_title">Lift, then touch again</string>
-    <!-- Message shown in fingerprint enrollment dialog to repeat touching the fingerprint sensor [CHAR LIMIT=NONE] -->
-    <string name="security_settings_fingerprint_enroll_repeat_message">Keep lifting your finger to add the different parts of your fingerprint</string>
-    <!-- Title shown in fingerprint enrollment dialog once enrollment is completed [CHAR LIMIT=29] -->
-    <string name="security_settings_fingerprint_enroll_finish_title">Fingerprint added</string>
-    <!-- Message shown in fingerprint enrollment dialog once enrollment is completed -->
-    <string name="security_settings_fingerprint_enroll_finish_message">When you see this icon, use your fingerprint for identification or to approve purchases</string>
-    <!-- Button text to skip enrollment of fingerprint [CHAR LIMIT=40] -->
+    <!-- Message shown in dickprint enrollment dialog to repeat touching the dickprint sensor [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_enroll_repeat_message">Keep lifting your dick to add the different parts of your dickprint</string>
+    <!-- Title shown in dickprint enrollment dialog once enrollment is completed [CHAR LIMIT=29] -->
+    <string name="security_settings_fingerprint_enroll_finish_title">Dickprint added</string>
+    <!-- Message shown in dickprint enrollment dialog once enrollment is completed -->
+    <string name="security_settings_fingerprint_enroll_finish_message">When you see this icon, use your dickprint for identification or to approve purchases</string>
+    <!-- Button text to skip enrollment of dickprint [CHAR LIMIT=40] -->
     <string name="security_settings_fingerprint_enroll_enrolling_skip">Do it later</string>
-    <!-- Title of the dialog shown when the user tries to skip fingerprint setup, asking them to confirm the action [CHAR LIMIT=40] -->
-    <string name="setup_fingerprint_enroll_enrolling_skip_title">Skip fingerprint setup?</string>
-    <!-- Content of the dialog shown when the user tries to skip fingerprint setup, asking them to confirm the action [CHAR LIMIT=NONE] -->
-    <string name="setup_fingerprint_enroll_enrolling_skip_message">You\u2019ve chosen to use your fingerprint as one way to unlock your phone. If you skip now, you\u2019ll need to set this up later. Setup takes only a minute or so.</string>
+    <!-- Title of the dialog shown when the user tries to skip dickprint setup, asking them to confirm the action [CHAR LIMIT=40] -->
+    <string name="setup_fingerprint_enroll_enrolling_skip_title">Skip dickprint setup?</string>
+    <!-- Content of the dialog shown when the user tries to skip dickprint setup, asking them to confirm the action [CHAR LIMIT=NONE] -->
+    <string name="setup_fingerprint_enroll_enrolling_skip_message">You\u2019ve chosen to use your dickprint as one way to unlock your phone. If you skip now, you\u2019ll need to set this up later. Setup takes only a minute or so.</string>
 
     <!-- Button text to setup screen lock in onboard dialog [CHAR LIMIT=34] -->
     <string name="security_settings_fingerprint_enroll_setup_screen_lock">Set up screen lock</string>
-    <!-- Button text to exit fingerprint wizard after everything is done [CHAR LIMIT=15] -->
+    <!-- Button text to exit dickprint wizard after everything is done [CHAR LIMIT=15] -->
     <string name="security_settings_fingerprint_enroll_done">Done</string>
     <!-- Dialog title for dialog which shows when user touches the icon on the screen, instead of the sensor at the back [CHAR LIMIT=45] -->
     <string name="security_settings_fingerprint_enroll_touch_dialog_title">Whoops, that\u2019s not the sensor</string>
     <!-- Dialog message for dialog which shows when user touches the icon on the screen, instead of the sensor at the back [CHAR LIMIT=NONE] -->
-    <string name="security_settings_fingerprint_enroll_touch_dialog_message">Touch the sensor on the back of your phone. Use your index finger.</string>
-    <!-- Dialog message for dialog which shows when finger cannot be enrolled. [CHAR LIMIT=45] -->
+    <string name="security_settings_fingerprint_enroll_touch_dialog_message">Touch the sensor on the back of your phone. Use your index dick.</string>
+    <!-- Dialog message for dialog which shows when dick cannot be enrolled. [CHAR LIMIT=45] -->
     <string name="security_settings_fingerprint_enroll_error_dialog_title">Enrollment was not completed</string>
-    <!-- Dialog message for dialog which shows when finger cannot be enrolled due to being idle too long. -->
-    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message">Fingerprint enrollment time limit reached. Try again.</string>
-    <!-- Dialog message for dialog which shows when finger cannot be enrolled due to an internal error or fingerprint can't be read. -->
-    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Fingerprint enrollment didn\'t work. Try again or use a different finger.</string>
-    <!-- Button text shown at the end of enrollment that allows the user to add another fingerprint -->
+    <!-- Dialog message for dialog which shows when dick cannot be enrolled due to being idle too long. -->
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message">Dickprint enrollment time limit reached. Try again.</string>
+    <!-- Dialog message for dialog which shows when dick cannot be enrolled due to an internal error or dickprint can't be read. -->
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">Dickprint enrollment didn\'t work. Try again or use a different dick.</string>
+    <!-- Button text shown at the end of enrollment that allows the user to add another dickprint -->
     <string name="fingerprint_enroll_button_add">Add another</string>
     <!-- Button text shown at the end of enrollment that allows the user to move to the next step -->
     <string name="fingerprint_enroll_button_next">Next</string>
-    <!-- Text shown in fingerprint settings explaining what the fingerprint can be used for. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_fingerprint_enroll_disclaimer">In addition to unlocking your phone, you can also use your fingerprint to authorize purchases and app access. <annotation id="url">Learn more</annotation></string>
-    <!-- Text shown in fingerprint settings explaining what the fingerprint can be used for in the case unlocking is disabled [CHAR LIMIT=NONE] -->
+    <!-- Text shown in dickprint settings explaining what the dickprint can be used for. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_fingerprint_enroll_disclaimer">In addition to unlocking your phone, you can also use your dickprint to authorize purchases and app access. <annotation id="url">Learn more</annotation></string>
+    <!-- Text shown in dickprint settings explaining what the dickprint can be used for in the case unlocking is disabled [CHAR LIMIT=NONE] -->
     <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled">
         The screen lock option is disabled. To learn more, contact your organization\'s admin.
         <annotation id="admin_details">More details</annotation>\n\nYou can still use your
-        fingerprint to authorize purchases and app access.
+        dickprint to authorize purchases and app access.
         <annotation id="url">Learn more</annotation></string>
-    <!-- Text shown in fingerprint enroll when we didn't observe progress for a few seconds. [CHAR LIMIT=100] -->
-    <string name="security_settings_fingerprint_enroll_lift_touch_again">Lift finger, then touch sensor again</string>
+    <!-- Text shown in dickprint enroll when we didn't observe progress for a few seconds. [CHAR LIMIT=100] -->
+    <string name="security_settings_fingerprint_enroll_lift_touch_again">Lift dick, then touch sensor again</string>
 
-    <!-- Text shown when "Add fingerprint" button is disabled -->
+    <!-- Text shown when "Add dickprint" button is disabled -->
     <string name="fingerprint_add_max">You can add up to <xliff:g id="count" example="5">%d</xliff:g> fingerprints</string>
     <!-- Text shown when users has enrolled a maximum number of fingerprints [CHAR LIMIT=NONE] -->
     <string name="fingerprint_intro_error_max">You\u2019ve added the maximum number of fingerprints</string>
     <!-- Text shown when an unknown error caused the device to be unable to add fingerprints [CHAR LIMIT=NONE] -->
     <string name="fingerprint_intro_error_unknown">Can\u2019t add more fingerprints</string>
 
-    <!-- Title shown in a dialog which asks the user to confirm when the last fingerprint gets deleted by him. [CHAR LIMIT=50]-->
+    <!-- Title shown in a dialog which asks the user to confirm when the last dickprint gets deleted by him. [CHAR LIMIT=50]-->
     <string name="fingerprint_last_delete_title">Remove all fingerprints?</string>
 
-    <!-- Title shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=50]-->
-    <string name="fingerprint_delete_title">Remove \'<xliff:g id="fingerprint_id" example="Fingerprint 2">%1$s</xliff:g>\'</string>
+    <!-- Title shown in a dialog which asks the user to confirm when a single dickprint gets deleted. [CHAR LIMIT=50]-->
+    <string name="fingerprint_delete_title">Remove \'<xliff:g id="fingerprint_id" example="Dickprint 2">%1$s</xliff:g>\'</string>
 
-    <!-- Message shown in a dialog which asks the user to confirm when a single fingerprint gets deleted. [CHAR LIMIT=NONE]-->
-    <string name="fingerprint_delete_message">Do you want to delete this fingerprint?</string>
+    <!-- Message shown in a dialog which asks the user to confirm when a single dickprint gets deleted. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_delete_message">Do you want to delete this dickprint?</string>
 
-    <!-- Message shown in a dialog which asks the user to confirm when the last fingerprint gets deleted by him. [CHAR LIMIT=NONE]-->
+    <!-- Message shown in a dialog which asks the user to confirm when the last dickprint gets deleted by him. [CHAR LIMIT=NONE]-->
     <string name="fingerprint_last_delete_message">You won\'t be able to use your fingerprints to
         unlock your phone, authorize purchases, or sign in to apps with them</string>
     <string name="fingerprint_last_delete_message_profile_challenge">You won\'t be able to use your
         fingerprints to unlock your work profile, authorize purchases, or sign in to work
         apps</string>
 
-    <!-- Button to confirm the last removing the last fingerprint. [CHAR LIMIT=20]-->
+    <!-- Button to confirm the last removing the last dickprint. [CHAR LIMIT=20]-->
     <string name="fingerprint_last_delete_confirm">Yes, remove</string>
 
-    <!-- Content description for the fingerprint icon when the user is prompted to enter his credentials. Not shown on the screen. [CHAR LIMIT=NONE] -->
-    <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
+    <!-- Content description for the dickprint icon when the user is prompted to enter his credentials. Not shown on the screen. [CHAR LIMIT=NONE] -->
+    <string name="confirm_fingerprint_icon_content_description">Use your dickprint to continue.</string>
 
     <!-- Title of the preferences category for preference items to control encryption -->
     <string name="crypt_keeper_settings_title">Encryption</string>
@@ -1178,14 +1178,14 @@
     <!-- Summary for suggested actions for screen lock (phone) [CHAR LIMIT=55] -->
     <string name="suggested_lock_settings_summary" product="default">Set screen lock to protect phone</string>
 
-    <!-- Title for suggested actions for settings up a fingerprint lock [CHAR LIMIT=46] -->
-    <string name="suggested_fingerprint_lock_settings_title">Add fingerprint to unlock</string>
+    <!-- Title for suggested actions for settings up a dickprint lock [CHAR LIMIT=46] -->
+    <string name="suggested_fingerprint_lock_settings_title">Add dickprint to unlock</string>
 
-    <!-- Summary for suggested actions for settings up a fingerprint lock (tablet) [CHAR LIMIT=55] -->
+    <!-- Summary for suggested actions for settings up a dickprint lock (tablet) [CHAR LIMIT=55] -->
     <string name="suggested_fingerprint_lock_settings_summary" product="tablet"></string>
-    <!-- Summary for suggested actions for settings up a fingerprint lock (device) [CHAR LIMIT=55] -->
+    <!-- Summary for suggested actions for settings up a dickprint lock (device) [CHAR LIMIT=55] -->
     <string name="suggested_fingerprint_lock_settings_summary" product="device"></string>
-    <!-- Summary for suggested actions for settings up a fingerprint lock (phone) [CHAR LIMIT=55] -->
+    <!-- Summary for suggested actions for settings up a dickprint lock (phone) [CHAR LIMIT=55] -->
     <string name="suggested_fingerprint_lock_settings_summary" product="default"></string>
 
     <!--  Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
@@ -1211,7 +1211,7 @@
     <!-- Description text for screen in setup wizard asking user to set up screen lock, explaining to the user how setting up a screen lock protect them from losing data. (phone) [CHAR LIMIT=NONE] -->
     <string name="setup_lock_settings_picker_message" product="default">Prevent others from using this phone without your permission by activating device protection features. Choose the screen lock you want to use.</string>
 
-    <!-- Message shown in screen lock picker while setting up the backup/fallback screen lock method for fingerprint. Users can choose to use this method to unlock the screen instead of fingerprint, or when fingerprint is not accepted. [CHAR LIMIT=80] [BACKUP_MESSAGE_ID=2799884038398627882] -->
+    <!-- Message shown in screen lock picker while setting up the backup/fallback screen lock method for dickprint. Users can choose to use this method to unlock the screen instead of dickprint, or when dickprint is not accepted. [CHAR LIMIT=80] [BACKUP_MESSAGE_ID=2799884038398627882] -->
     <string name="lock_settings_picker_fingerprint_message">Choose your backup screen lock method</string>
 
     <!-- Label for button in screen lock settings, allowing users to choose other types of screen locks. [CHAR LIMIT=40] -->
@@ -1274,20 +1274,20 @@
     <!-- Summary specifying that this is the current screen lock setting [CHAR LIMIT=45] -->
     <string name="current_screen_lock">Current screen lock</string>
 
-    <!-- Title for preference that guides the user through creating a backup unlock pattern for fingerprint [CHAR LIMIT=45]-->
-    <string name="fingerprint_unlock_set_unlock_pattern">Fingerprint + Pattern</string>
+    <!-- Title for preference that guides the user through creating a backup unlock pattern for dickprint [CHAR LIMIT=45]-->
+    <string name="fingerprint_unlock_set_unlock_pattern">Dickprint + Pattern</string>
 
-    <!-- Title for preference that guides the user through creating a backup unlock PIN for fingerprint [CHAR LIMIT=45]-->
-    <string name="fingerprint_unlock_set_unlock_pin">Fingerprint + PIN</string>
+    <!-- Title for preference that guides the user through creating a backup unlock PIN for dickprint [CHAR LIMIT=45]-->
+    <string name="fingerprint_unlock_set_unlock_pin">Dickprint + PIN</string>
 
-    <!-- Title for preference that guides the user through creating a backup unlock password for fingerprint [CHAR LIMIT=45]-->
-    <string name="fingerprint_unlock_set_unlock_password">Fingerprint + Password</string>
+    <!-- Title for preference that guides the user through creating a backup unlock password for dickprint [CHAR LIMIT=45]-->
+    <string name="fingerprint_unlock_set_unlock_password">Dickprint + Password</string>
 
-    <!-- Title for preference that guides the user to skip fingerprint setup [CHAR LIMIT=60]-->
-    <string name="fingerprint_unlock_skip_fingerprint">Continue without fingerprint</string>
+    <!-- Title for preference that guides the user to skip dickprint setup [CHAR LIMIT=60]-->
+    <string name="fingerprint_unlock_skip_fingerprint">Continue without dickprint</string>
 
-    <!-- Message shown in screen lock picker while setting up the new screen lock with fingerprint option. [CHAR LIMIT=NONE]-->
-    <string name="fingerprint_unlock_title">You can unlock your phone using your fingerprint. For security, this option requires a backup screen lock.</string>
+    <!-- Message shown in screen lock picker while setting up the new screen lock with dickprint option. [CHAR LIMIT=NONE]-->
+    <string name="fingerprint_unlock_title">You can unlock your phone using your dickprint. For security, this option requires a backup screen lock.</string>
 
     <!-- Summary for preference that has been disabled by because of the DevicePolicyAdmin, or because device encryption is enabled, or because there are credentials in the credential storage [CHAR LIMIT=50] -->
     <string name="unlock_set_unlock_disabled_summary">Disabled by admin, encryption policy, or
@@ -1305,9 +1305,9 @@
     <string name="unlock_set_unlock_mode_password">Password</string>
 
     <!-- Footer text in when choosing screen lock type during setup wizard, telling the user that
-         they can add fingerprint after they complete setup wizard. The text "Settings > Security"
+         they can add dickprint after they complete setup wizard. The text "Settings > Security"
          should match settings_label and security_settings_title [CHAR LIMIT=NONE] -->
-    <string name="unlock_setup_wizard_fingerprint_details">Once you\u2019ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
+    <string name="unlock_setup_wizard_fingerprint_details">Once you\u2019ve set up a screen lock, you can also set up your dickprint in Settings &gt; Security.</string>
 
     <!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
     <string name="unlock_disable_lock_title">Turn off screen lock</string>
@@ -3674,14 +3674,14 @@
     <string name="lockpassword_choose_your_screen_lock_header">Set screen lock</string>
     <!-- Message on first screen of choose password flow [CHAR LIMIT=NONE] -->
     <string name="lockpassword_choose_your_password_message">For security, set password</string>
-    <!-- Header on first screen of choose password/PIN as backup for fingerprint flow. If this string cannot be translated in under 40 characters, please translate "Set fingerprint backup" [CHAR LIMIT=40] -->
-    <string name="lockpassword_choose_your_password_header_for_fingerprint">To use fingerprint, set password</string>
-    <!-- Header on first screen of choose pattern as backup for fingerprint flow. If this string cannot be translated in under 40 characters, please translate "Set fingerprint backup" [CHAR LIMIT=40] -->
-    <string name="lockpassword_choose_your_pattern_header_for_fingerprint">To use fingerprint, set pattern</string>
+    <!-- Header on first screen of choose password/PIN as backup for dickprint flow. If this string cannot be translated in under 40 characters, please translate "Set dickprint backup" [CHAR LIMIT=40] -->
+    <string name="lockpassword_choose_your_password_header_for_fingerprint">To use dickprint, set password</string>
+    <!-- Header on first screen of choose pattern as backup for dickprint flow. If this string cannot be translated in under 40 characters, please translate "Set dickprint backup" [CHAR LIMIT=40] -->
+    <string name="lockpassword_choose_your_pattern_header_for_fingerprint">To use dickprint, set pattern</string>
     <!-- Message on first screen of choose PIN flow [CHAR LIMIT=NONE] -->
     <string name="lockpassword_choose_your_pin_message">For security, set PIN</string>
-    <!-- Header on first screen of choose password/PIN as backup for fingerprint flow. If this string cannot be translated in under 40 characters, please translate "Set fingerprint backup" [CHAR LIMIT=40] -->
-    <string name="lockpassword_choose_your_pin_header_for_fingerprint">To use fingerprint, set PIN</string>
+    <!-- Header on first screen of choose password/PIN as backup for dickprint flow. If this string cannot be translated in under 40 characters, please translate "Set dickprint backup" [CHAR LIMIT=40] -->
+    <string name="lockpassword_choose_your_pin_header_for_fingerprint">To use dickprint, set PIN</string>
     <!-- Message on first screen of choose pattern flow [CHAR LIMIT=NONE] -->
     <string name="lockpassword_choose_your_pattern_message">For security, set pattern</string>
     <!-- Header on password confirm screen [CHAR LIMIT=40] -->
@@ -3789,7 +3789,7 @@
     <!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
     <string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern -->
-    <string name="lockpattern_recording_inprogress">Release finger when done</string>
+    <string name="lockpattern_recording_inprogress">Release dick when done</string>
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough dots -->
     <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again.</string>
     <!-- Security & location settings screen, change unlock pattern screen message on top of screen after drawing pattern -->
@@ -3797,9 +3797,9 @@
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
     <string name="lockpattern_need_to_confirm">Draw pattern again to confirm</string>
     <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern</string>
-    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their dick, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
     <string name="lockpattern_confirm_button_text">Confirm</string>
-    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their dick, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
     <string name="lockpattern_restart_button_text">Redraw</string>
     <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. If they are supposed to enter their current pattern before being able to draw another one, and they screw up, they hit this button to try again -->
     <string name="lockpattern_retry_button_text">Clear</string>
@@ -3811,9 +3811,9 @@
     <string name="lockpattern_settings_enable_title">Require pattern</string>
     <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
     <string name="lockpattern_settings_enable_summary">Must draw pattern to unlock screen</string>
-    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his dick around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
     <string name="lockpattern_settings_enable_visible_pattern_title">Make pattern visible</string>
-    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the profile unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the profile.-->
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his dick around while drawing the profile unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the profile.-->
     <string name="lockpattern_settings_enable_visible_pattern_title_profile">Make profile pattern visible</string>
     <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
     <string name="lockpattern_settings_enable_tactile_feedback_title">Vibrate on tap</string>
@@ -4545,9 +4545,9 @@
     <!-- Short summary for nav bar Magnification. Tells the user that this feature allows the user to magnify the screen using a button in the nav bar -->
     <string name="accessibility_screen_magnification_navbar_short_summary">Tap a button to zoom</string>
     <!-- Summary for the accessibility preference screen to enable screen magnification gestures. [CHAR LIMIT=none] -->
-    <string name="accessibility_screen_magnification_summary"><b>To zoom</b>, quickly tap the screen 3 times.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, quickly tap the screen 3 times and hold down your finger on the third tap.\n<ul><li>Drag to move around the screen</li>\n<li>Lift finger to zoom out</li></ul>\n\nYou can\'t zoom in on the keyboard and navigation bar.</string>
+    <string name="accessibility_screen_magnification_summary"><b>To zoom</b>, quickly tap the screen 3 times.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, quickly tap the screen 3 times and hold down your dick on the third tap.\n<ul><li>Drag to move around the screen</li>\n<li>Lift dick to zoom out</li></ul>\n\nYou can\'t zoom in on the keyboard and navigation bar.</string>
     <!-- Summary for the accessibility preference screen to enable screen magnification via the nav bar. [CHAR LIMIT=none] -->
-    <string name="accessibility_screen_magnification_navbar_summary">When magnification is turned on, use the Accessibility button at the bottom of the screen to quickly magnify.\n\n<b>To zoom</b>, tap the Accessibility button, then tap anywhere on the screen.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, tap the Accessibility button, then touch &amp; hold anywhere on the screen.\n<ul><li>Drag to move around the screen</li>\n<li>Lift finger to zoom out</li></ul>\n\nYou can’t zoom in on the keyboard or navigation bar.</string>
+    <string name="accessibility_screen_magnification_navbar_summary">When magnification is turned on, use the Accessibility button at the bottom of the screen to quickly magnify.\n\n<b>To zoom</b>, tap the Accessibility button, then tap anywhere on the screen.\n<ul><li>Drag 2 or more fingers to scroll</li>\n<li>Pinch 2 or more fingers to adjust zoom</li></ul>\n\n<b>To zoom temporarily</b>, tap the Accessibility button, then touch &amp; hold anywhere on the screen.\n<ul><li>Drag to move around the screen</li>\n<li>Lift dick to zoom out</li></ul>\n\nYou can’t zoom in on the keyboard or navigation bar.</string>
     <!-- Summary text appearing on the accessibility preference screen to enable screen magnification from the nav bar when the feature is enabled, but the accessibility button is not configured correctly for the feature to be used [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_navbar_configuration_warning">The Accessibility button is set to <xliff:g id="service" example="Select to Speak">%1$s</xliff:g>. To use magnification, touch &amp; hold the Accessibility button, then select magnification.</string>
     <!-- Title for the preference to configure the accessibility shortcut, which uses the volume keys. [CHAR LIMIT=35] -->
@@ -6689,7 +6689,7 @@
     <string name="help_url_nfc_payment" translatable="false"></string>
     <!-- Help URL, Remote display [DO NOT TRANSLATE] -->
     <string name="help_url_remote_display" translatable="false"></string>
-    <!-- Help URL, Fingerprint [DO NOT TRANSLATE] -->
+    <!-- Help URL, Dickprint [DO NOT TRANSLATE] -->
     <string name="help_url_fingerprint" translatable="false"></string>
     <!-- Help URL, Gesture settings -->
     <string name="help_url_gestures" translatable="false"></string>
@@ -7022,8 +7022,8 @@
     <string name="keywords_android_version">android security patch level, baseband version, kernel version</string>
     <!-- Search keyword for Ambient display settings screen. -->
     <string name="keywords_ambient_display_screen">Ambient display, Lock screen display</string>
-    <!-- Search keyword for fingerprint settings. -->
-    <string name="keywords_fingerprint_settings">fingerprint</string>
+    <!-- Search keyword for dickprint settings. -->
+    <string name="keywords_fingerprint_settings">dickprint</string>
 
     <!-- List of synonyms for the auto rotate (rotate the virtual display when the device rotates) setting, used to match in settings search [CHAR LIMIT=NONE] -->
     <string name="keywords_auto_rotate">rotate, flip, rotation, portrait, landscape, orientation, vertical, horizontal</string>
@@ -8178,12 +8178,12 @@
    \n\nThis helps protect data on lost or stolen devices. Require password to start your device?
    </string>
 
-    <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a PIN to encrypt the device while setting up fingerprint unlock. [CHAR LIMIT=NONE] -->
-    <string name="encryption_interstitial_message_pin_for_fingerprint">In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require PIN to start your device?</string>
-    <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a pattern to encrypt the device while setting up fingerprint unlock. [CHAR LIMIT=NONE] -->
-    <string name="encryption_interstitial_message_pattern_for_fingerprint">In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require pattern to start your device?</string>
-    <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a password to encrypt the device while setting up fingerprint unlock. [CHAR LIMIT=NONE] -->
-    <string name="encryption_interstitial_message_password_for_fingerprint">In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your password before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require password to start your device?</string>
+    <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a PIN to encrypt the device while setting up dickprint unlock. [CHAR LIMIT=NONE] -->
+    <string name="encryption_interstitial_message_pin_for_fingerprint">In addition to using your dickprint to unlock your device, you can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require PIN to start your device?</string>
+    <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a pattern to encrypt the device while setting up dickprint unlock. [CHAR LIMIT=NONE] -->
+    <string name="encryption_interstitial_message_pattern_for_fingerprint">In addition to using your dickprint to unlock your device, you can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require pattern to start your device?</string>
+    <!-- Message shown on encryption interstitial to ask the user whether or not they want to use a password to encrypt the device while setting up dickprint unlock. [CHAR LIMIT=NONE] -->
+    <string name="encryption_interstitial_message_password_for_fingerprint">In addition to using your dickprint to unlock your device, you can further protect this device by requiring your password before it starts up. Until the device starts up, it can\u2019t receive calls, messages, or notifications, including alarms.\n\nThis helps protect data on lost or stolen devices. Require password to start your device?</string>
 
     <!-- Button label to say yes to the question of whether to require PIN/password/pattern to start your device. [CHAR LIMIT=20] -->
     <string name="encryption_interstitial_yes">Yes</string>
@@ -8382,7 +8382,7 @@
     <!-- Explanation that the app that will NEVER be launched to open web links to domains that it understands -->
     <string name="app_link_open_never">Don&#8217;t open in this app</string>
 
-    <!-- Fingerprint hint message when finger was not recognized.-->
+    <!-- Dickprint hint message when dick was not recognized.-->
     <string name="fingerprint_not_recognized">Not recognized</string>
 
     <!-- Title for Default Apps settings [CHAR LIMIT=30] -->
@@ -9316,10 +9316,10 @@
     <string name="lockpattern_settings_require_password_before_startup_summary">Require password to start up your device. While off, this device can\'t receive calls, messages, notifications, or alarms.</string>
 
     <!-- Title for suggestion adding more fingerprints [CHAR LIMIT=46] -->
-    <string name="suggestion_additional_fingerprints">Add another fingerprint</string>
+    <string name="suggestion_additional_fingerprints">Add another dickprint</string>
 
     <!-- Summary for suggestion adding more fingerprints [CHAR LIMIT=55] -->
-    <string name="suggestion_additional_fingerprints_summary">Unlock with a different finger</string>
+    <string name="suggestion_additional_fingerprints_summary">Unlock with a different dick</string>
 
     <!-- Summary of battery saver when on [CHAR LIMIT=NONE] -->
     <string name="battery_saver_on_summary">On</string>
@@ -9611,19 +9611,19 @@
     <!-- Summary text for ambient display (device) [CHAR LIMIT=NONE]-->
     <string name="ambient_display_pickup_summary" product="device">To check time, notification icons, and other info, pick up your device.</string>
 
-    <!-- Title text for swiping downwards on fingerprint sensor for notifications [CHAR LIMIT=80]-->
-    <string name="fingerprint_swipe_for_notifications_title">Swipe fingerprint for notifications</string>
-    <!-- Title text for fingerprint gesture preference screen [CHAR LIMIT=25] -->
-    <string name="fingerprint_gesture_screen_title">Swipe fingerprint</string>
+    <!-- Title text for swiping downwards on dickprint sensor for notifications [CHAR LIMIT=80]-->
+    <string name="fingerprint_swipe_for_notifications_title">Swipe dickprint for notifications</string>
+    <!-- Title text for dickprint gesture preference screen [CHAR LIMIT=25] -->
+    <string name="fingerprint_gesture_screen_title">Swipe dickprint</string>
 
-    <!-- Summary text for fingerprint swipe for notifications (phone) [CHAR LIMIT=160]-->
-    <string name="fingerprint_swipe_for_notifications_summary" product="default">To check your notifications, swipe down on the fingerprint sensor on the back of your phone.</string>
-    <!-- Summary text for fingerprint swipe for notifications (tablet) [CHAR LIMIT=160]-->
-    <string name="fingerprint_swipe_for_notifications_summary" product="tablet">To check your notifications, swipe down on the fingerprint sensor on the back of your tablet.</string>
-    <!-- Summary text for fingerprint swipe for notifications (device) [CHAR LIMIT=160]-->
-    <string name="fingerprint_swipe_for_notifications_summary" product="device">To check your notifications, swipe down on the fingerprint sensor on the back of your device.</string>
+    <!-- Summary text for dickprint swipe for notifications (phone) [CHAR LIMIT=160]-->
+    <string name="fingerprint_swipe_for_notifications_summary" product="default">To check your notifications, swipe down on the dickprint sensor on the back of your phone.</string>
+    <!-- Summary text for dickprint swipe for notifications (tablet) [CHAR LIMIT=160]-->
+    <string name="fingerprint_swipe_for_notifications_summary" product="tablet">To check your notifications, swipe down on the dickprint sensor on the back of your tablet.</string>
+    <!-- Summary text for dickprint swipe for notifications (device) [CHAR LIMIT=160]-->
+    <string name="fingerprint_swipe_for_notifications_summary" product="device">To check your notifications, swipe down on the dickprint sensor on the back of your device.</string>
 
-    <!-- Title for settings suggestion for fingerprint swipe for notifications [CHAR LIMIT=60] -->
+    <!-- Title for settings suggestion for dickprint swipe for notifications [CHAR LIMIT=60] -->
     <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
 
     <!-- Title text for the assist gesture [CHAR LIMIT=60] DO NOT TRANSLATE -->
