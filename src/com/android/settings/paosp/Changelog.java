@@ -117,6 +117,6 @@ public class Changelog extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD_SETTINGS;
+        return MetricsProto.MetricsEvent.PAOSP_SETTINGS;
     }
 }

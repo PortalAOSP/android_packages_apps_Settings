@@ -58,7 +58,7 @@ public class AmbientPlaySettings extends SettingsPreferenceFragment implements C
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XENONHD_SETTINGS;
+        return MetricsEvent.PAOSP_SETTINGS;
     }
 
     private boolean isEnabled() {
