@@ -138,20 +138,20 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.xenonhd.settings.fragments.ButtonsSettings;
-import com.xenonhd.settings.fragments.GesturesSettings;
-import com.xenonhd.settings.fragments.LockscreenSettings;
-import com.xenonhd.settings.fragments.MiscSettings;
-import com.xenonhd.settings.fragments.NavigationSettings;
-import com.xenonhd.settings.fragments.NotificationsSettings;
-import com.xenonhd.settings.fragments.OmniGestureSettings;
-import com.xenonhd.settings.fragments.PowerSettings;
-import com.xenonhd.settings.fragments.QSSettings;
-import com.xenonhd.settings.fragments.RecentsSettings;
-import com.xenonhd.settings.fragments.SmartPixels;
-import com.xenonhd.settings.fragments.StatusbarSettings;
+import com.paosp.settings.fragments.ButtonsSettings;
+import com.paosp.settings.fragments.GesturesSettings;
+import com.paosp.settings.fragments.LockscreenSettings;
+import com.paosp.settings.fragments.MiscSettings;
+import com.paosp.settings.fragments.NavigationSettings;
+import com.paosp.settings.fragments.NotificationsSettings;
+import com.paosp.settings.fragments.OmniGestureSettings;
+import com.paosp.settings.fragments.PowerSettings;
+import com.paosp.settings.fragments.QSSettings;
+import com.paosp.settings.fragments.RecentsSettings;
+import com.paosp.settings.fragments.SmartPixels;
+import com.paosp.settings.fragments.StatusbarSettings;
 
-import com.xenonhd.settings.XenonSettings;
+import com.paosp.settings.PornSettings;
 
 public class SettingsGateway {
 
@@ -290,7 +290,7 @@ public class SettingsGateway {
             RecentsSettings.class.getName(),
             SmartPixels.class.getName(),
             StatusbarSettings.class.getName(),
-            XenonSettings.class.getName(),
+            PornSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -329,6 +329,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.XenonSettingsActivity.class.getName(),
+            Settings.PornSettingsActivity.class.getName(),
     };
 }

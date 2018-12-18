@@ -59,7 +59,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_xenonhd_logo"
+                    android:src="@drawable/ic_paosp_logo"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"/>
 
@@ -70,8 +70,8 @@
             style="@style/device_info_dialog_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/xenonhd_version"/>
-        <org.lineageos.internal.preference.deviceinfo.XenonHDVersionTextView
+            android:text="@string/paosp_version"/>
+        <org.lineageos.internal.preference.deviceinfo.PaospVersionTextView
             style="@style/device_info_dialog_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/header_category_device"/>
-        <org.lineageos.internal.preference.deviceinfo.XenonHDDeviceTextView
+        <org.lineageos.internal.preference.deviceinfo.PaospDeviceTextView
             style="@style/device_info_dialog_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -90,8 +90,8 @@
             style="@style/device_info_dialog_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/xenonhd_maintainer"/>
-        <org.lineageos.internal.preference.deviceinfo.XenonHDMaintainerTextView
+            android:text="@string/paosp_maintainer"/>
+        <org.lineageos.internal.preference.deviceinfo.PaospMaintainerTextView
             style="@style/device_info_dialog_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

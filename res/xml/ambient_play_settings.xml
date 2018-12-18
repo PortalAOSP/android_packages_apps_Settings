@@ -26,12 +26,12 @@
             android:enabled="false"
             android:layout="@layout/ambient_play_illustration" />
 
-        <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        <com.paosp.settings.preferences.SystemSettingSwitchPreference
             android:key="ambient_recognition_keyguard"
             android:title="@string/ambient_play_lockscreen_title"
             android:defaultValue="true" />
 
-        <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        <com.paosp.settings.preferences.SystemSettingSwitchPreference
             android:key="ambient_recognition_notification"
             android:title="@string/ambient_play_notifications_title"
             android:defaultValue="true" />

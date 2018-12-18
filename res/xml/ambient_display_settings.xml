@@ -65,6 +65,6 @@
         android:key="ambient_play"
         android:title="@string/ambient_play_title"
         android:summary="@string/ambient_play_summary"
-        android:fragment="com.android.settings.xenonhd.ambient.AmbientPlaySettings" />
+        android:fragment="com.android.settings.paosp.ambient.AmbientPlaySettings" />
 
 </PreferenceScreen>
