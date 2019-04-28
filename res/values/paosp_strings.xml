@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 PornAOSP
+<!-- Copyright (C) 2019 PortalAOSP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,12 +16,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About Firmware dialog -->
-    <string name="paosp_version">PornAOSP version</string>
+    <string name="paosp_version">PortalAOSP version</string>
     <string name="paosp_maintainer">Maintainer</string>
 
-    <!-- PornAOSP Hub -->
-    <string name="paosp_settings_title">PornAOSP Hub</string>
-    <string name="paosp_settings_summary">Additional settings</string>
+    <!-- PortalAOSP Hub -->
+    <string name="paosp_settings_title">Aperture Labs</string>
+    <string name="paosp_settings_summary">The customization chamber</string>
 
     <!-- Ambient Play -->
     <string name="ambient_play_title" translatable="false">@*android:string/ambient_recognition_notification</string>
