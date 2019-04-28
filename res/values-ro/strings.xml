@@ -193,7 +193,7 @@
     <skip />
     <string name="intent_sender_sendbroadcast_text" msgid="1415735148895872715">"Trimiteți <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="616458370005452389">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
-    <string name="intent_sender_startactivity_text" msgid="5080516029580421895">"Porniți <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
+    <string name="intent_sender_startactivity_text" msgid="5080516029580421895">"Portaliți <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
     <string name="intent_sender_resource_label" msgid="6963659726895482829">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
     <string name="intent_sender_account_label" msgid="465210404475603404">"Cont:"</string>
     <string name="proxy_settings_title" msgid="9049437837600320881">"Proxy"</string>
@@ -3456,7 +3456,7 @@
     <string name="opening_paragraph_delete_profile_unknown_company" msgid="2232461523882170874">"Acest profil de serviciu este gestionat de:"</string>
     <string name="managing_admin" msgid="8843802210377459055">"Gestionat de <xliff:g id="ADMIN_APP_LABEL">%s</xliff:g>"</string>
     <string name="experimental_preference" msgid="7083015446690681376">"(Experimental)"</string>
-    <string name="encryption_interstitial_header" msgid="468015813904595613">"Pornire securizată"</string>
+    <string name="encryption_interstitial_header" msgid="468015813904595613">"Portalire securizată"</string>
     <string name="encryption_continue_button" msgid="1121880322636992402">"Continuați"</string>
     <string name="encryption_interstitial_message_pin" msgid="2317181134653424679">"Puteți lua măsuri de protecție suplimentară pe acest dispozitiv solicitând codul PIN înainte de a-l porni. Pe dispozitiv nu se pot primi apeluri, mesaje sau notificări și nici alarme până când nu este pornit. \n\nAstfel vă puteți proteja datele de pe dispozitivele pierdute sau furate. Doriți să solicitați un cod PIN pentru a vă porni dispozitivul?"</string>
     <string name="encryption_interstitial_message_pattern" msgid="7081249914068568570">"Puteți lua măsuri de protecție suplimentară pe acest dispozitiv solicitând modelul înainte de a-l porni. Pe dispozitiv nu se pot primi apeluri, mesaje sau notificări și nici alarme până când nu este pornit. \n\nAstfel vă puteți proteja datele de pe dispozitivele pierdute sau furate. Doriți să solicitați un model pentru a vă porni dispozitivul?"</string>
@@ -3800,7 +3800,7 @@
     <string name="condition_bg_data_summary" msgid="656957852895282228">"Datele de fundal sunt disponibile doar prin Wi-Fi. Este posibil ca unele aplicații sau servicii să fie afectate când conexiunea Wi-Fi nu este disponibilă."</string>
     <string name="condition_work_title" msgid="7293722361184366648">"Profil de serviciu dezactivat"</string>
     <string name="condition_work_summary" msgid="7543202177571590378">"Aplicațiile, sincronizarea în fundal și alte funcții asociate profilului de serviciu sunt dezactivate."</string>
-    <string name="condition_device_muted_action_turn_on_sound" msgid="4930240942726349213">"Porniți sunetul"</string>
+    <string name="condition_device_muted_action_turn_on_sound" msgid="4930240942726349213">"Portaliți sunetul"</string>
     <string name="condition_device_muted_title" product="tablet" msgid="3095044864508335783">"Sunetul dispozitivului este dezactivat"</string>
     <string name="condition_device_muted_title" product="default" msgid="5818278137378379647">"Sunetul telefonului este dezactivat"</string>
     <string name="condition_device_muted_summary" msgid="5445341185705628047">"Apelurile și notificările vor avea sunetul dezactivat"</string>
@@ -3901,7 +3901,7 @@
     <string name="unrestricted_app_summary" msgid="6458008993501723912">"Permiteți acces nerestricționat la date când Economizorul de date e activat"</string>
     <string name="home_app" msgid="4066188520886810030">"Aplicația din ecranul de pornire"</string>
     <string name="no_default_home" msgid="7184117487704520238">"Niciun ecran de pornire prestabilit"</string>
-    <string name="lockpattern_settings_require_cred_before_startup" msgid="3832020101401318248">"Pornire securizată"</string>
+    <string name="lockpattern_settings_require_cred_before_startup" msgid="3832020101401318248">"Portalire securizată"</string>
     <string name="lockpattern_settings_require_pattern_before_startup_summary" msgid="7873036097628404476">"Este necesar un model pentru a porni dispozitivul. În timp ce este închis, dispozitivul nu poate primi apeluri, mesaje, notificări sau alarme."</string>
     <string name="lockpattern_settings_require_pin_before_startup_summary" msgid="6022831284097476933">"Este necesar un cod PIN pentru a porni dispozitivul. În timp ce este închis, dispozitivul nu poate primi apeluri, mesaje, notificări sau alarme."</string>
     <string name="lockpattern_settings_require_password_before_startup_summary" msgid="6818285221244966231">"Este necesară o parolă pentru a porni dispozitivul. În timp ce este închis, dispozitivul nu poate primi apeluri, mesaje, notificări sau alarme."</string>

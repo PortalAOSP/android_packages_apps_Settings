@@ -177,5 +177,5 @@ public class Settings extends SettingsActivity {
     public static class RecentsSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
     public static class StatusbarSettingsActivity extends SettingsActivity { /* empty */ }
-    public static class PornSettingsActivity extends SettingsActivity {}
+    public static class PortalSettingsActivity extends SettingsActivity {}
 }

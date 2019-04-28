@@ -151,7 +151,7 @@ import com.paosp.settings.fragments.RecentsSettings;
 import com.paosp.settings.fragments.SmartPixels;
 import com.paosp.settings.fragments.StatusbarSettings;
 
-import com.paosp.settings.PornSettings;
+import com.paosp.settings.PortalSettings;
 
 public class SettingsGateway {
 
@@ -290,7 +290,7 @@ public class SettingsGateway {
             RecentsSettings.class.getName(),
             SmartPixels.class.getName(),
             StatusbarSettings.class.getName(),
-            PornSettings.class.getName(),
+            PortalSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -329,6 +329,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.PornSettingsActivity.class.getName(),
+            Settings.PortalSettingsActivity.class.getName(),
     };
 }
