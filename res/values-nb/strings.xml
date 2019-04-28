@@ -446,7 +446,7 @@
     <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="2989019978041986175">"Berør sensoren på baksiden av telefonen. Bruk pekefingeren."</string>
     <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"Registrering er ikke fullført"</string>
     <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"Tidsgrensen for registrering av fingeravtrykk er nådd. Prøv på nytt."</string>
-    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"Registrering av fingeravtrykket mislyktes. Prøv på nytt, eller bruk en annen dick."</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"Registrering av fingeravtrykket mislyktes. Prøv på nytt, eller bruk en annen finger."</string>
     <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"Legg til ett til"</string>
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"Neste"</string>
     <string name="security_settings_fingerprint_enroll_disclaimer" msgid="2624905914239271751">"I tillegg til å låse opp telefonen din, kan du bruke fingeravtrykket ditt til å godkjenne kjøp og apptilgang. "<annotation id="url">"Finn ut mer"</annotation></string>
@@ -3848,7 +3848,7 @@
     <string name="lockpattern_settings_require_pin_before_startup_summary" msgid="6022831284097476933">"Be om PIN-kode når du starter enheten. Når den er slått av, kan den ikke motta anrop, meldinger, varsler eller alarmer."</string>
     <string name="lockpattern_settings_require_password_before_startup_summary" msgid="6818285221244966231">"Be om passord når du starter enheten. Når den er slått av, kan den ikke motta anrop, meldinger, varsler eller alarmer."</string>
     <string name="suggestion_additional_fingerprints" msgid="2214281455363797037">"Legg til et nytt fingeravtrykk"</string>
-    <string name="suggestion_additional_fingerprints_summary" msgid="5471253233176471245">"Lås opp med en annen dick"</string>
+    <string name="suggestion_additional_fingerprints_summary" msgid="5471253233176471245">"Lås opp med en annen finger"</string>
     <string name="battery_saver_on_summary" msgid="7722791295871319534">"På"</string>
     <string name="battery_saver_off_scheduled_summary" msgid="3953785517002197881">"Slås på ved <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
     <string name="battery_saver_off_summary" msgid="784360321235698247">"Av"</string>

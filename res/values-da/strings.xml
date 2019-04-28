@@ -446,7 +446,7 @@
     <string name="security_settings_fingerprint_enroll_touch_dialog_message" msgid="2989019978041986175">"Tryk på sensoren bagpå med pegefingeren."</string>
     <string name="security_settings_fingerprint_enroll_error_dialog_title" msgid="3618021988442639280">"Registreringen kunne ikke gennemføres"</string>
     <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message" msgid="2942551158278899627">"Tidsgrænsen for registrering af fingeraftryk blev overskredet. Prøv igen."</string>
-    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"Registrering af fingeraftryk virkede ikke. Prøv igen, eller brug en anden dick."</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message" msgid="3624760637222239293">"Registrering af fingeraftryk virkede ikke. Prøv igen, eller brug en anden finger."</string>
     <string name="fingerprint_enroll_button_add" msgid="6317978977419045463">"Tilføj endnu et"</string>
     <string name="fingerprint_enroll_button_next" msgid="6247009337616342759">"Næste"</string>
     <string name="security_settings_fingerprint_enroll_disclaimer" msgid="2624905914239271751">"Ud over at bruge fingeraftryk til at låse telefonen op kan du også bruge fingeraftryk til at godkende køb og få adgang til apps. "<annotation id="url">"Få flere oplysninger"</annotation></string>
@@ -3848,7 +3848,7 @@
     <string name="lockpattern_settings_require_pin_before_startup_summary" msgid="6022831284097476933">"Kræv pinkode for at starte enheden. Denne enhed kan ikke modtage opkald, beskeder, underretninger eller alarmer, når den er slukket."</string>
     <string name="lockpattern_settings_require_password_before_startup_summary" msgid="6818285221244966231">"Kræv adgangskode for at starte enheden. Denne enhed kan ikke modtage opkald, beskeder, underretninger eller alarmer, når den er slukket."</string>
     <string name="suggestion_additional_fingerprints" msgid="2214281455363797037">"Tilføj et fingeraftryk mere"</string>
-    <string name="suggestion_additional_fingerprints_summary" msgid="5471253233176471245">"Lås op med en anden dick"</string>
+    <string name="suggestion_additional_fingerprints_summary" msgid="5471253233176471245">"Lås op med en anden finger"</string>
     <string name="battery_saver_on_summary" msgid="7722791295871319534">"Til"</string>
     <string name="battery_saver_off_scheduled_summary" msgid="3953785517002197881">"Aktiveres ved <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
     <string name="battery_saver_off_summary" msgid="784360321235698247">"Fra"</string>
